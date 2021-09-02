@@ -1,0 +1,243 @@
+색칠안된거
+
+
+
+
+x
+.bg-네비게이션1_a지역 {
+    width: 140px; height: 50px;
+    background: url('css_sprites.png') -0 -0;
+}
+
+x
+.bg-네비게이션1_b쇼핑 {
+    width: 140px; height: 50px;
+    background: url('css_sprites.png') -0 -50px;
+}
+
+x
+.bg-네비게이션1_c문화 {
+    width: 140px; height: 50px;
+    background: url('css_sprites.png') -0 -100px;
+}
+
+x
+.bg-네비게이션1_d여행 {
+    width: 140px; height: 50px;
+    background: url('css_sprites.png') -0 -150px;
+}
+
+x
+.bg-네비게이션1_e레저 {
+    width: 140px; height: 50px;
+    background: url('css_sprites.png') -0 -200px;
+}
+
+x
+.bg-네비게이션1_f추천 {
+    width: 140px; height: 50px;
+    background: url('css_sprites.png') -0 -250px;
+}
+
+x
+.bg-네비게이션1_g전체보기 {
+    width: 140px; height: 50px;
+    background: url('css_sprites.png') -0 -300px;
+}
+
+
+
+
+색칠된거
+
+
+
+
+x
+.bg-네비게이션1_a지역c {
+    width: 140px; height: 50px;
+    background: url('css_sprites.png') -0 -350px;
+}
+
+x
+.bg-네비게이션1_b쇼핑c {
+    width: 140px; height: 50px;
+    background: url('css_sprites.png') -0 -400px;
+}
+
+x
+.bg-네비게이션1_c문화c {
+    width: 140px; height: 50px;
+    background: url('css_sprites.png') -0 -450px;
+}
+
+x
+.bg-네비게이션1_d여행c {
+    width: 140px; height: 50px;
+    background: url('css_sprites.png') -0 -500px;
+}
+
+x
+.bg-네비게이션1_e레저c {
+    width: 140px; height: 50px;
+    background: url('css_sprites.png') -0 -550px;
+}
+
+x
+.bg-네비게이션1_f추천c {
+    width: 140px; height: 50px;
+    background: url('css_sprites.png') -0 -600px;
+}
+
+x
+.bg-네비게이션1_g전체보기c {
+    width: 140px; height: 50px;
+    background: url('css_sprites.png') -0 -650px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+바텀
+
+
+
+색칠안된거
+
+x
+.bg-네비게이션2_a스페셜 {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -0;
+}
+
+x
+.bg-네비게이션2_b의류 {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -80px;
+}
+
+x
+.bg-네비게이션2_c패션잡화 {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -160px;
+}
+
+x
+.bg-네비게이션2_d스포츠레저 {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -240px;
+}
+
+x
+.bg-네비게이션2_e식품 {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -320px;
+}
+
+x
+.bg-네비게이션2_f뷰티 {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -400px;
+}
+
+x
+.bg-네비게이션2_g생활주방 {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -480px;
+}
+
+x
+.bg-네비게이션2_h홈데코취미 {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -560px;
+}
+
+x
+.bg-네비게이션2_i디지털가전 {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -640px;
+}
+
+x
+.bg-네비게이션2_j출산유아동 {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -720px;
+}
+
+
+
+
+
+
+색칠된거
+
+
+x
+.bg-네비게이션2_a스페셜c {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -800px;
+}
+
+x
+.bg-네비게이션2_b의류c {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -880px;
+}
+
+x
+.bg-네비게이션2_c패션잡화c {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -960px;
+}
+
+x
+.bg-네비게이션2_d스포츠레저c {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -1040px;
+}
+
+x
+.bg-네비게이션2_e식품c {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -1120px;
+}
+
+x
+.bg-네비게이션2_f뷰티c {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -1200px;
+}
+
+x
+.bg-네비게이션2_g생활주방c {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -1280px;
+}
+
+x
+.bg-네비게이션2_h홈데코취미c {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -1360px;
+}
+
+x
+.bg-네비게이션2_i디지털가전c {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -1440px;
+}
+
+x
+.bg-네비게이션2_j출산유아동c {
+    width: 98px; height: 80px;
+    background: url('css_sprites.png') -0 -1520px;
+
