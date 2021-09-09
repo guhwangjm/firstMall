@@ -340,16 +340,20 @@ li {
 
 .main_banner>.prod-tab{position: absolute; top: 40px; left: 1220px; background-color: #fff}
 
-.prod-tab{height: 0px}
 .tab-item{position: relative}
-.mask{height: 60px; position: absolute; left: 0; right: 0; top: 0; bottom: 0}
-.mask:hover{border: 1px solid blue;}
+.tab-item-img{vertical-align: top}
+.mask{position: absolute; left: 0; right: 0; top: 0; bottom: 0}
+.mask:hover{border: 2px solid blue;}
+
+
 
 #product_section {
     overflow: hidden;
     margin-top: 10px
 }
 
+
+/* 상품 목록 */
 #product_section>#product_article {
     float: left;
     width: 976px;
