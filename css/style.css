@@ -336,7 +336,7 @@ li {
 
 .main_banner{position: relative; left: 50%; margin-left: -980px;}
 
-.main_banner>.box{position: absolute; left: 100px; top: 40px; left: 1220px; background-color: #fff}
+.main_banner>.box{height: 370px; position: absolute; top: 40px; left: 1220px; background-color: #fff}
 
 
 
