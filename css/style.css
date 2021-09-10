@@ -4,12 +4,7 @@
     margin: 0
 }
 
-body {
-    overflow-x: hidden;
-    position: relative;
-    width: 980px;
-    margin: 0 auto
-}
+body{width: 100%;}
 
 li {
     list-style: none
@@ -19,9 +14,20 @@ li {
     clear: both
 }
 
-.wrap{width: 100%; overflow: hidden}
+.wrap{
+    width: 100%;
+    min-width: 1020px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto
+}
+
+a{text-decoration: none}
 
 .narrow{width: 980px; margin: 0 auto; position: relative}
+
+
+
 
 /* 헤더 */
 #header {
@@ -44,18 +50,7 @@ li {
 }
 
 
-/* 사이드 */
-#global-aside {
-    position: absolute;
-    top: 1000px;
-    left: 1000px;
-    width: 90px
-}
 
-#global-aside > a {
-    display: block;
-    margin-bottom: 5px
-}
 
 /* 네비게이션 */
 /* 탑 네비게이션 */
@@ -324,13 +319,22 @@ li {
 /* 유틸리티 클래스들 */
 .m-l-10{margin-left: 10px}
 
-.m-b-10{margin-bottom: 10px}
-
 .m-l-13{margin-left: 13px}
 
 .m-t-10{margin-top: 10px}
 
 
+
+/* 사이드 */
+
+#asidebox{position: relative}
+
+#global-aside {position: absolute; left: 50%; margin-left: 550px}
+
+#global-aside > a {
+    display: block;
+    margin-bottom: 5px
+}
 
 
 
@@ -355,10 +359,11 @@ li {
 
 /* 상품 목록 */
 #product_section>#product_article {
-    float: left;
-    width: 976px;
+    width: 100%;
+    min-width: 980px;
     height: 964px;
-    border: 1px solid #d6d6d6
+    border: 1px solid #d6d6d6;
+    box-sizing: border-box
 }
 
 .prod-row{overflow: hidden}
@@ -376,23 +381,27 @@ li {
 
 /* 푸터 */
 /* 푸터 상단 */
-#footer{width: 1070px; font-size: 11px; margin: 0 auto}
-.footer1{border-top: 1px solid #000000; border-bottom: 1px solid #000000; margin: 30px 0; padding: 20px 0;}
-.footer1>ul{margin-left: 15px}
-.footer1>ul>li{float: left; border-right: 1px solid #000; padding: 0 10px}
-.footer1>ul>li:nth-child(12){border-right: none}
-.footer2{overflow: hidden}
-.footer2>div{float: left; padding-right: 40px}
-.coupang_logo{padding-left: 100px}
+
+
+#main_footer{width: 100%; min-width: 980px; font-size: 11px;}
+#main_footer * {color: #555}
+.footer1{text-align: center; border-top: 2px solid #ddd; border-bottom: 1px solid #ddd; height: 30px; padding-top: 20px; white-space: nowrap; margin-top: 30px;}
+.footer1>a{padding: 0 5px;}
+.footer1>a::before{border-left: 1px solid black; content:""; margin-right: 10px}
+.footer1>a:first-child::before{border-left: 0}
+
+.footer2{overflow: hidden; margin-top: 30px}
+.coupang_logo{margin-left: 85px}
+.footer2>div{float: left; padding-right: 30px}
 .tel_num{font-size: 20px; font-weight: bold}
 
 /* 푸터 하단 */
 .footer3{overflow: hidden}
 .footer3>div{float: left; padding: 30px;}
-.footer3>div:nth-child(1){margin-left: 80px}
-.footer4{overflow: hidden; width: 1070px; height: 85px; background-color: #333333;}
+.footer3>div:nth-child(1){margin-left: 90px}
+.footer4{overflow: hidden; height: 85px; background-color: #333333;}
 .footer4_text{float: left; color: #fff; padding: 10px 0 0 70px; font-size: 10px}
-.footer4_logo{float: left; width:120px; height: 100px; margin: 20px 0 0 50px}
+.footer4_logo{width:120px; height: 100px; float: right; padding-top: 20px}
 
 
 
