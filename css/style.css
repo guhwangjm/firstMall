@@ -390,18 +390,21 @@ a{text-decoration: none}
 .footer1>a::before{border-left: 1px solid black; content:""; margin-right: 10px}
 .footer1>a:first-child::before{border-left: 0}
 
-.footer2{overflow: hidden; margin-top: 30px}
-.coupang_logo{margin-left: 85px}
-.footer2>div{float: left; padding-right: 30px}
-.tel_num{font-size: 20px; font-weight: bold}
+.footer2{overflow: hidden; margin: 30px auto; width: 980px}
+.coupang_logo{margin: 5px 0 0 80px; cursor: pointer;}
+.footer2>*{float: left; padding-right: 30px; line-height: 18px}
+.footer2>adress>a{text-decoration: underline}
+.footer2>.contact-info>em{font-size: 24px; font-family: Tahoma; font-weight: bold; display: block; margin: 9px 0; font-style: normal}
+.footer2>adress>span{font-size: 11px}
 
 /* 푸터 하단 */
-.footer3{overflow: hidden}
+.footer3{overflow: hidden; width: 980px; margin:0 auto}
 .footer3>div{float: left; padding: 30px;}
-.footer3>div:nth-child(1){margin-left: 90px}
-.footer4{overflow: hidden; height: 85px; background-color: #333333;}
-.footer4_text{float: left; color: #fff; padding: 10px 0 0 70px; font-size: 10px}
-.footer4_logo{width:120px; height: 100px; float: right; padding-top: 20px}
+.footer3>div:nth-child(1){margin-left: 100px}
+
+.footer4{overflow: hidden; width: 980px; margin:0 auto; background-color: #333333;}
+.footer4_text{float: left; color: #fff; padding: 10px 0 10px 40px; font-size: 10px}
+.footer4_logo{width:120px; float: right; padding-top: 20px}
 
 
 
